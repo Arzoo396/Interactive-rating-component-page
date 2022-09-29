@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: hsl(216, 12%, 8%); */
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 26rem;
+    height: 25.2rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translateX(-50%);
+}
+
+.star {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: hsl(212, 14%, 23%);
+    border-radius: 100%;
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.star img {
+    width: 20px;
+    margin-top: 0.750rem;
+    margin-left: 0.750rem;
+}
+
+.container h1 {
+    color: hsl(0, 0%, 100%);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700
+}
+
+.container p {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 22rem;
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container ul li button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(212, 14%, 23%);
+    color: hsl(217, 12%, 63%);
+    padding: 0.2rem;
+    margin: 1.5rem 1rem;
+}
+
+.container ul li button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.container ul li button:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btnsubmit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 23rem;
+    height: 2rem;
+    border-radius: 0.925rem;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.btnsubmit:hover {
+    background-color: white;
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+}
+
+
+.container2 {
+    background-color: hsl(213, 19%, 18%);
+    width: 26rem;
+    height: 25.2rem;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translateX(-50%);
+}
+
+.hidden{
+    display: none;
+}
+.thankyou {
+    display: block;
+    margin: 3rem auto 2rem;
+}
+
+.you {
+    width: 14rem;
+    height: 2rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(215, 18%, 24%);
+    display: flex;
+    justify-content: center;
+}
+
+.you h3 {
+    margin-top: 0.4rem;
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.container2 h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.container2 p {
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+    margin: 2.3rem 2.3rem ;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
